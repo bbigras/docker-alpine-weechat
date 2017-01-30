@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine
 MAINTAINER Bruno Bigras <bigras.bruno@gmail.com>
 
 RUN apk add --no-cache --virtual .build-deps \
